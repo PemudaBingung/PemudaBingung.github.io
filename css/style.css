@@ -30,10 +30,6 @@ img {
     width: 100%;
 }
 
-.navbar {
-    box-shadow: var(--box-shadow);
-}
-
 .logo {
     width: 260px;
 }
@@ -68,26 +64,13 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(21, 20, 51, 0.8);
     z-index: -1;
+    background-image: linear-gradient(to right bottom, #395b64, #52757c, #6d9096, #88acaf, #a5c9ca);
 }
 
 section {
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.iconbox {
-    width: 54px;
-    height: 54px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary);
-    color: var(--white);
-    font-size: 32px;
-    border-radius: 100px;
-    flex: none;
 }
 
 .footer-top {
@@ -105,5 +88,5 @@ section {
 }
 
 .footer-bottom {
-    background-color: #242933;
+    background-color: #2C3333;
 }
